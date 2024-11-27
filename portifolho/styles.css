@@ -1,4 +1,4 @@
-/* Reset de estilos padrões */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
 }
 
-/* Cabeçalho */
+
 header {
     background-color: #333;
     color: white;
@@ -45,7 +45,7 @@ header nav ul li a {
     font-size: 1.2em;
 }
 
-/* Seções */
+
 .section {
     padding: 50px 0;
 }
@@ -55,7 +55,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Seção de Projetos */
+
 .projects {
     display: flex;
     justify-content: space-between;
@@ -82,7 +82,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Seção de Contato */
+
 ul {
     list-style: none;
     text-align: center;
@@ -98,7 +98,7 @@ ul li a {
     font-size: 1.1em;
 }
 
-/* Rodapé */
+
 footer {
     background-color: #333;
     color: white;
@@ -106,7 +106,7 @@ footer {
     text-align: center;
 }
 
-/* Música de Fundo */
+
 .music-control {
     position: fixed;
     bottom: 20px;
@@ -140,9 +140,31 @@ footer {
     font-weight: bold;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .music-control {
         width: 250px;
     }
 }
+
+.circle-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ccc; 
+    margin: center
+    
+  }
+
+  .circle-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+
+
+ 
