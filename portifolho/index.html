@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Luiz Carlos</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Luiz Carlos</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de Ciência da Computação, apaixonado por tecnologia e programação. Tenho experiência com diversas linguagens de programação e sempre estou em busca de novos desafios para crescer como profissional.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luiz Carlos</p>
+        </div>
+    </footer>
+
+    <!-- Música de fundo -->
+    <audio id="musicaFundo" loop>
+        <source src="Gigi Perez - Sailor Song (Audio).mp3" type="audio/mp3">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+
+    <!-- Hub Bonito para Música -->
+    <div id="musicControl" class="music-control">
+        <div class="music-icon" onclick="toggleMusic()">
+            <span id="playPauseIcon" class="icon">▶️</span>
+        </div>
+        <div class="music-volume">
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" onchange="changeVolume(this)">
+        </div>
+        <div class="music-time">
+            <span id="currentTime">00:00</span> / <span id="duration">03:32</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

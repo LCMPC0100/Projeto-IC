@@ -1,0 +1,148 @@
+/* Reset de estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Seções */
+.section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Seção de Projetos */
+.projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Seção de Contato */
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Música de Fundo */
+.music-control {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 300px;
+}
+
+.music-control .music-icon {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.music-control .music-volume input {
+    width: 100px;
+}
+
+.music-control .music-time {
+    font-size: 1em;
+}
+
+.music-control .music-time span {
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .music-control {
+        width: 250px;
+    }
+}
