@@ -1,6 +1,6 @@
 # Projeto-IC
 
-Esse projeto fala um pouco sobre mim e minha jornada ate chegar aqui
+Esse projeto que fala um pouco sobre minha pessoa e minha jornada ate chegar aqui
 
 ## 🎓 Tequinologias usadas 
 
